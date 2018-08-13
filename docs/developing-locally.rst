@@ -23,7 +23,7 @@ First things first.
 
     $ pip install -r requirements/local.txt
 
-#. Create a new PostgreSQL database (note: if this is the first time a database is created on your machine you might need to alter a localhost-related entry in your ``pg_hba.conf`` so as to utilize ``trust`` policy): ::
+#. Create a new PostgreSQL database (note: if this is the first time a database is created on your machine you might need to alter a localhost-related entry in your ``pg_hba.conf`` so as to utilize ``trust`` policy, or use [Heroku's Postgres.app](https://postgresapp.com/): ::
 
     $ createdb <what you've entered as the project_slug at setup stage>
 
